@@ -1,0 +1,98 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+.modal__container {
+  background: var(--clr-white);
+  padding: 0.5em;
+  box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0), 0 0 3px rgba(0, 0, 0, 0.75);
+  position: relative;
+  border-radius: calc(2px + var(--br));
+}
+.modal__nameContainer {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+}
+.modal__name {
+  text-align: center;
+  padding: 0.5em;
+  position: relative;
+  z-index: 1;
+  color: transparent;
+  transition: color 250ms ease-in;
+}
+.modal__name::after {
+  content: '';
+  position: absolute;
+  top: var(--modal-name-dim);
+  left: var(--modal-name-dim);
+  bottom: var(--modal-name-dim);
+  right: var(--modal-name-dim);
+  background: var(--modal-img);
+  z-index: -1;
+
+  transform: scaleX(0.05);
+  transform-origin: left;
+  transition: transform 350ms ease-in;
+}
+.modal__container:hover .modal__name::after {
+  transform: scaleX(1);
+}
+.modal__container:hover .modal__name {
+  color: white;
+}
+.modal__container > img {
+  object-fit: contain;
+  height: 28em;
+}
+.modal__infoContainer {
+  width: 400px;
+  position: absolute;
+  top: 4.7rem;
+  left: 3rem;
+}
+.modal__info {
+  position: relative;
+  z-index: 1;
+  color: transparent;
+  padding: 1em 2em 2em;
+  transition: color 350ms ease-in 350ms;
+}
+.modal__info::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--modal-img);
+  z-index: -1;
+
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 350ms ease-in 350ms;
+}
+.modal__container:hover .modal__info {
+  color: white;
+}
+.modal__container:hover .modal__info::after {
+  transform: scaleY(1);
+}
+
+.modal__dialogue::after,
+.modal__dialogue::before {
+  content: '"';
+}
+
+.modal__dialogue {
+  margin: 0em 0 1em;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+}

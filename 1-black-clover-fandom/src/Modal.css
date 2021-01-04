@@ -6,14 +6,32 @@
   right: 0;
   display: grid;
   place-items: center;
+  animation: modal 250ms ease-in forwards;
+}
+@keyframes modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .modal__container {
   background: var(--clr-white);
   padding: 0.5em;
-  box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0), 0 0 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.75);
   position: relative;
   border-radius: calc(2px + var(--br));
 }
+.modal__container > span {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 2.5rem;
+  color: var(--modal-img);
+  cursor: pointer;
+}
+
 .modal__nameContainer {
   position: absolute;
   top: 2rem;
@@ -91,7 +109,7 @@
 }
 
 .modal__dialogue {
-  margin: 0em 0 1em;
+  margin: -0.5em 0 0.5em;
   font-weight: 400;
   font-style: italic;
   letter-spacing: 2px;

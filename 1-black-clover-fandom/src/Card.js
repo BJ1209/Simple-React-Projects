@@ -13,7 +13,7 @@ const Card = ({ id, profilePic, name, magic, deleteCard, clicked, dataHandler, o
         <p>{occupation}</p>
         <p>{magic}</p>
       </div>
-      <span onClick={() => deleteCard(id)}>&times;</span>
+      <span onClick={(e) => deleteCard(e, id)}>&times;</span>
     </div>
   );
 };

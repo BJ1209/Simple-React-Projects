@@ -5,8 +5,7 @@ const data = [
     magic: 'Time Magic',
     profilePic:
       'https://static.wikia.nocookie.net/blackclover/images/f/fc/Julius_reset_as_young_man.png/revision/latest?cb=20200607073204',
-    imageUrl:
-      'https://cutewallpaper.org/21/black-clover-wiki-julius/Arata-Kasuga-Trinity-Seven-vs-Julius-Novachrono-Black-.png',
+    imageUrl: 'https://i.pinimg.com/originals/12/93/3d/12933dd3c8e97bf6a341f41ccec74ecf.gif',
     squad: 'Grey Deer (former)',
     occupation: 'Wizard King',
     kingdom: 'Clover Kingdom',
@@ -27,15 +26,27 @@ const data = [
       "I may not look it, but in front of the people of the Heart Kingdom, I do try to behave properly, as their princess. And so I'm happy to have made friends I can be myself with. I'm glad I was able to get to know you.",
   },
   {
+    id: 8,
+    name: 'Mereoleona Vermillion ',
+    magic: 'Fire Magic',
+    profilePic:
+      'https://a-static.besthdwallpaper.com/black-clover-mereoleona-vermillion-wallpaper-2048x1536-19681_26.jpg',
+    imageUrl:
+      'https://media1.tenor.com/images/e9d325c6a4318a284da4ce81268b8a01/tenor.gif?itemid=14622378',
+    occupation: 'Magic Knight Captain',
+    kingdom: 'Clover Kingdom',
+    dialogue: "Nothing's stronger than a determined woman.",
+  },
+  {
     id: 4,
     name: 'Yami Sukehiro',
     magic: 'Black Magic',
     profilePic:
       'https://64.media.tumblr.com/104f1ad2253179e0ae2d90ceb8902837/59776fedb725f805-c7/s540x810/2ee00331f0a78718773477a4874d83149db5bee7.png',
     imageUrl:
-      'https://static.wikia.nocookie.net/blackclover/images/1/1f/Yami_anime_profile.png/revision/latest/scale-to-width-down/258?cb=20180708200943',
+      'https://pa1.narvii.com/7720/a4eb7154296a55ad41dc1ba98dfb6747cddb81b2r1-498-280_hq.gif',
     squad: 'The Black Bulls',
-    occupation: 'Captain',
+    occupation: 'Magic Knights Captain',
     kingdom: 'Clover Kingdom',
     dialogue: 'Surpass your limits. Right here. Right now.',
   },
@@ -45,9 +56,10 @@ const data = [
     magic: 'Briar Magic',
     profilePic:
       'https://static.wikia.nocookie.net/xianb/images/8/8f/Image_180905_122239.png/revision/latest?cb=20180905162244',
-    imageUrl: 'https://i.redd.it/y3pcg939t6f21.jpg',
+    imageUrl:
+      'https://media1.tenor.com/images/9afff814180b17526752338badd8d188/tenor.gif?itemid=16612675',
     squad: 'Blue Rose',
-    occupation: 'Captain',
+    occupation: 'Magic Knights Captain',
     kingdom: 'Clover Kingdom',
     dialogue: 'The battlefield is my only lover.',
   },
@@ -57,8 +69,7 @@ const data = [
     magic: 'Anti Magic',
     profilePic:
       'https://static.wikia.nocookie.net/blackclover/images/a/a3/Asta_anime_profile.png/revision/latest/top-crop/width/220/height/220?cb=20180708200543',
-    imageUrl:
-      'https://static.wikia.nocookie.net/blackclover/images/a/a3/Asta_anime_profile.png/revision/latest/scale-to-width-down/258?cb=20180708200543',
+    imageUrl: 'https://i.pinimg.com/originals/64/38/d0/6438d0783823fd21ba3017f2b3b008ca.gif',
     squad: 'The Black Bulls',
     occupation: 'Magic Knight',
     kingdom: 'Clover Kingdom',
@@ -70,8 +81,7 @@ const data = [
     magic: 'Wind Magic',
     profilePic:
       'https://preview.redd.it/vge5yvipm6441.png?auto=webp&s=9fe2fd238c1e80f41f56c64d5a1f637d82db0861',
-    imageUrl:
-      'https://static.wikia.nocookie.net/blackclover/images/c/c8/Yuno_as_vice-captain.png/revision/latest/scale-to-width-down/350?cb=20200403155826',
+    imageUrl: 'https://i.pinimg.com/originals/43/ba/39/43ba39e223d9577bd34b496a10e7a66b.gif',
     squad: 'Golden Dawn',
     occupation: 'Magic Knight',
     kingdom: 'Clover Kingdom',
@@ -83,8 +93,7 @@ const data = [
     magic: 'water Magic',
     profilePic:
       'https://static.wikia.nocookie.net/blackclover/images/0/00/Noelle_after_Heart_Kingdom_training.png/revision/latest/top-crop/width/360/height/360?cb=20191117231002',
-    imageUrl:
-      'https://static.wikia.nocookie.net/blackclover/images/0/00/Noelle_after_Heart_Kingdom_training.png/revision/latest/scale-to-width-down/186?cb=20191117231002',
+    imageUrl: 'https://media0.giphy.com/media/65DjmSc7GrEZN3Gxva/giphy.gif',
     squad: 'The Black Bulls',
     occupation: 'Magic Knight',
     kingdom: 'Clover Kingdom',
